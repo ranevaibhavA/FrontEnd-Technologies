@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <link rel="icon" href="icon.png">
+        <title>
+            Registration page
+        </title>
+    </head>
+    <!--
+        Design a web page having first name, last name, 
+        gender[use radio button], qualification 10th,12th,Graduation[use check box], mail address field, mobile number and a 
+        submit button.
+    -->
+    <body>
+        <div>
+            <form action="thanks.html"></form>
+            <table>
+                <tr>
+                    <td> <label for="fname">Enter First name</label></td> 
+                    <td> <input type="text" placeholder="Enter First name" name="name" id="fname"></td> <br>
+                </tr>        
+                <tr>
+                     <td> <label for="lname">Enter last name</label> </td>
+                    <td> <input type="text" placeholder="Enter last name" name="name" id="lname"> <br></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Gender</label></td>
+                    <td>
+                        <input type="radio" name="gender" value="male">male
+                        <input type="radio" name="gender" value="female">female
+                    </td>
+                </tr>
+                <tr>
+                    <td> <label for="Pass">Enter password</label></td>
+                    <td> <input type="password" placeholder="Password" id="Pass"></td>
+                </tr>
+                <tr>
+                    <td>
+                            qualification
+                    </td>
+                    <td>
+                            <input type="checkbox" name="Qualification" value="10th">10th <br>
+                            <input type="checkbox" name="Qualification" value="12th">12th <br>
+                            <input type="checkbox" name="Qualification" value="Degree">Degree
+                    </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="email">Enter Email</label>
+                        </td>
+                        <td>
+                            <input type="email" name="email" id="email" placeholder="Email">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Mobile">Enter mobile number</label>
+                        </td>
+                        <td>
+                            <input type="number" name="MobileNo" id="Mobile" minlength="10" maxlength="10">
+                        </td>
+                    </tr>
+                </tr>
+                
+            </table>
+            
+            <a href="thanks.html" target="_blank"><button>submit</button></a>
+
+        </div>
+    </body>
+</html>
