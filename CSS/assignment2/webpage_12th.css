@@ -1,0 +1,96 @@
+.maindiv0{
+        background-color: darkgray;
+        width: 1000px;
+        height: 500px;
+        font-family: sans-serif;
+        color: white;
+        padding-left: 50px;
+        padding-top: 30px
+        
+}
+.div1{
+        float: left;
+        width: 200px;
+        height: 150px;
+        background-color: aquamarine;
+        padding: 8px;}
+.div2{
+    float: left;
+    width: 200px;
+    height: 150px;
+    background-color: coral;
+    padding: 8px;
+    margin-right: 1px;
+    margin-left: 15px;
+}
+.pfordate{
+    font-size: 30px;
+    
+}
+.div3{
+    float: left;
+    width: 200px;
+    height: 150px;
+    background-color: darkgoldenrod;
+    padding: 8px;
+    margin-left: 10px;
+
+}
+.bardiv4{
+    float: left;
+    width: 200px;
+    height: 150px;
+    padding: 8px;
+     margin-left:10px;
+    
+            background-color: ghostwhite;
+}
+.bars{
+    padding-left: 10px;
+    padding-top: 10px;    
+    transform: rotateX(180deg);
+    display: inline-flex;
+}
+.bar1{
+        width: 8px;
+        height: 50px;
+        margin-right: 5px;
+        background-color:red;   
+}
+.bar2{
+    height: 50px;
+    width: 5px;
+    float: left;
+    background-color:yellow;
+
+}
+.div4{
+    float: left;
+    height: 150px;
+    width: 200px;
+    
+    background-color: aqua;
+    padding: 8px;
+    margin-top: 10px;
+}
+td{
+    text-align: center;
+}
+.div5{
+    float: left;
+    height: 150px;
+    width: 200px;
+    background-color:coral;
+    padding: 8px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.div6{
+    float: left;
+    height: 165px;
+    width: 210px;
+    background-image: url(wonder5pic.jpg);
+    margin-left: 15px;
+    margin-top: 10px;
+    
+    }

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Signup page</title>
+    <link rel="icon" href="icon.png">
+    <link rel="stylesheet" href="tooltil_2nd.css">
+</head>
+<body>
+
+   
+    <!--1.	Design Sign in page & apply external css. 
+         Apply attractive color, font  to the page, also use div tag for combination of label & text input-->
+        <h1>
+           <u>Sign in page </u>
+        </h1>
+        <div>
+            <table>
+                   <tr>
+                             <td>
+                                   <label for="name">Enter Your name:-</label>
+                            </td>
+                            <td>
+                                <input type="text" id="name" placeholder="full name">
+                            </td>
+                    </tr>
+                            <tr>
+                                <td>
+                                        <label for="city">Enter the city:-</label>
+                                </td>
+                                <td>
+                                <input type="text" id="city" placeholder="City">
+                                </td>
+                            </tr>
+                    <tr>
+                        <td>
+                                    <label for="degree">choose Your degree:-</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="degree" id="degree">Bachlor degree <br>
+                            <input type="radio" name="degree" id="degree">Master degree
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="collegename">Enter Your college name</label>
+                        </td>
+                        <td>
+                            <input type="text" id="collegename" placeholder="college name">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="email">Enter email id:-</label><br>
+                            <p id="pid1">(It is use as UserId)</p>
+                        </td>
+                        <td>
+                            <input type="email" id="email" placeholder="@gmail.com">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="pass">Enter password</label>
+                        </td>
+                        <td class="tooltip">
+                                <!-- required pattern=".{8,20}" title="please enter minium 8 character" -->
+                            <input type="password" id="pass" required  placeholder="password">
+                            <p class="tooltiptext">
+                                Password must be in 8-20 character
+                        </p> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> 
+                            <button type="submit">Submit</button>
+                        </td>
+                        <td>
+                            <button type="reset">Reset</button>
+                        </td>
+                    </tr>
+            </table>
+        </div>
+</body>
+</html>

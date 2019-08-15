@@ -1,0 +1,21 @@
+div{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: aqua;
+    position: absolute;
+
+    animation-name: example;
+    animation-direction: alternate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes example{
+    0%{background-color: white;right: 0px;top: 0px}
+    25%{background-color: black;right: 200px;top:0px}
+    50%{background-color: yellow;right: 200px;top:200px}
+    75%{background-color: brown;right: 0px;top: 200px}
+    100%{background-color: green;right: 0px;top:0px}
+}

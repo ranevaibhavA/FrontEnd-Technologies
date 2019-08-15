@@ -1,0 +1,45 @@
+body{
+    background-image: url(bgimg8.jpg)
+}
+h1{
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 40px;
+}
+div{
+    margin-left: 500px;
+    margin-right: 100px;
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+    /* background-image: url(bgimg8.jpg); */
+
+    }
+input{
+    margin-bottom: 10px;
+ 
+}
+#pid1{
+    font-style: italic;
+}
+.tooltip{
+        /* position: relative;
+        display: inline-block;
+        border-bottom: 1px dotted black; */
+}
+.tooltiptext{
+    visibility: hidden;
+    width: 120px;
+    background-color: white;
+    /* 
+    color: blanchedalmond;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position of tooltip */
+    position: absolute;
+    /* z-index:1; */
+}
+.tooltip:hover .tooltiptext{
+visibility: visible;
+}
